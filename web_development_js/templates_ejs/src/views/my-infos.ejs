@@ -1,0 +1,13 @@
+<%-include('base_header') -%>
+    <ul>
+    <% for(var i=0; i< list_profile.length; ++i) { %>        
+        <li> 
+            <span class="descritor">Nome:</span> <%=list_profile[i].nome %><br/>
+            <span class="descritor">Idade:</span> <%=list_profile[i].idade %><br/>
+            <span class="descritor">Interesses:</span> <%=list_profile[i].interesses %> <br/>
+            <span class="descritor">Contato:</span> <%=list_profile[i].contato %>            
+        </li> 
+    <% } %>
+    </ul>
+<%# A linha abaixo carrega no template o conteúdo total do arquivo footer.ejs %>
+<%- include('base_footer') -%>
