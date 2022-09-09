@@ -2,29 +2,49 @@
 Autor: Fabrício G. M. de Carvalho
 */
 body {
-    background-color: #1F1C18;
+  background-color: #1f1c18;
 }
 
-ul {
-    list-style: none;
+.ul-projetos {
+  list-style: none;
 }
 
-li {
+.li-projetos {
+    float: left;
     display: inline;
-    margin-left: 100px;
     margin-right: auto;
-    margin-top: 10pt;
-    width: 170pt;
+    margin-left: 20px;
+    margin-top: 50pt;
+    width: 150pt;
     height: 150pt;
-    background-color: #8E0E00;
-    border-radius: 20%;
+    background-color: #8e0200;
+    border-radius: 3%;
     text-align: center;
     padding-top: 70pt;
     border-color: black;
     border-style: solid;
-    float: left;
+}
+
+.ul-myinfos {
+    list-style: none;
+}
+
+.li-myinfos{
+    display: block;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50pt;
+    width: 200pt;
+    height: 150pt;
+    background-color: #8e0e00;
+    border-radius: 3%;
+    text-align: center;
+    padding-top: 70pt;
+    border-color: black;
+    border-style: solid;
 }
 
 .descritor {
-    font-weight: bold;
+  font-weight: bold;
 }
