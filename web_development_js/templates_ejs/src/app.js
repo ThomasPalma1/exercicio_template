@@ -16,7 +16,7 @@ app.set('views', './views');
 /* Configurando o diretório que serve arquivos estáticos.*/
 app.use(express.static('public'));
 
-app.get('/', listMyInfos); /* roda index contendo as minhas informações pessoais */
+app.get('/thomas', listMyInfos); /* roda index contendo as minhas informações pessoais */
 
 app.get('/projects', listProjectHandler); /* rota alternativa contendo as informações dos projetos */
 
